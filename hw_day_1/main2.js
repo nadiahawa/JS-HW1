@@ -27,11 +27,25 @@ console.log(contains);
 // console.log(2replacedItem)
 // console.log(4replacedItem)
 
-var colors=["Max","Baseball","Reboot","Goku","Trucks","Rodger"];
+var names=["Max","Baseball","Reboot","Goku","Trucks","Rodger"];
 //loop back-words through array when removing items like so:
 for (var i = colors.length - 1; i >= 0; i--) {
-    if (colors[i] === "Max" || colors[i] === "Reboot" || colors[i] === "Rodger") { 
-        colors.splice(i, 1, 'even');
+    if (names[i] === "Max" || names[i] === "Reboot" || names[i] === "Rodger") { 
+        names.splice(i, 1, 'even');
     }
 }
 console.log(colors)
+
+
+// https://www.codewars.com/kata/544675c6f971f7399a000e79/train/javascript
+
+// const stringToNumber = function(str){
+//   var b = parseInt(str)
+//   return b;
+// }
+
+
+// https://www.codewars.com/kata/55685cd7ad70877c23000102/train/javascript
+// function makeNegative(num) {
+//   return (-Math.abs(num));
+// }
